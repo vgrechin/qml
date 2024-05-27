@@ -7,7 +7,7 @@ F* take_param(K x, I* n, S* err);
 F* make_param(K x, F* param, K* r);
 
 
-struct call_info {
+extern struct call_info {
     int arg; // 0 = make_param(start), 1/-1 = base+arg*scalar
     F base;
     K start;
